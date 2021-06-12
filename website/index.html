@@ -357,12 +357,12 @@
         }
 
         if (browserHasRequiredFeatures()) {
-            // Go ahead and load js beepbox editor interface:
-            var fileref = document.createElement("script");
-            fileref.setAttribute("type", "text/javascript");
-            fileref.setAttribute("src", "beepbox_editor.min.js");
-            document.head.appendChild(fileref);
-        } else {
+            // // Go ahead and load js beepbox editor interface:
+            // var fileref = document.createElement("script");
+            // fileref.setAttribute("type", "text/javascript");
+            // fileref.setAttribute("src", "beepbox_editor.min.js");
+            // document.head.appendChild(fileref);
+
             document.getElementById("beepboxEditorContainer").innerHTML = "Sorry, JummBox doesn't support your browser. Try a recent version of Chrome, Firefox, Edge, Safari, or Opera.";
         }
 
